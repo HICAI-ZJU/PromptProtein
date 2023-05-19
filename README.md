@@ -13,15 +13,15 @@ In the field of natural language processing, researchers design prompts to effec
 
 Through experiments, we find that the learnable Prompt can improve the performance, but the initialization of Prompt is very important. When we initialize Prompt with the embedding of `<CRD>`, the $F_{\mathtt{max}}$ of the model on GO-BP is less than 0.3. That is to say, when the decoder and Prompt are trained together, the prompt can be easily optimized to local optimum rather than a global optimum. This may be caused by (1) the sparse knowledge of the model, which needs to add more protein-related pre-training tasks; (2) lack of more effective prompt tuning methods. We leave these for future work.
 
-In this paper, we made a preliminary exploration on how to apply prompt technology to protein language model. We have designed many prompts related to protein characteristics on protein language model in [PromptProtein](https://hicai-zju.github.io/PromptProtein/) and left them for future work.
+In this paper, we made a preliminary exploration on how to apply prompt technology to protein language model. We have designed many prompts related to protein characteristics on protein language model in [PromptProtein](https://hicai-zju.github.io/ProteinPromptEngineering//) and left them for future work.
 
 
-Model is available at: [oneDrive](https://zjueducn-my.sharepoint.com/:u:/g/personal/yuanzew_zju_edu_cn/EWgFQ7W3aNpOn5XP_ZzQj3QBcVwxEdqgdgM4qLCvsjNqKA?e=eNVLcj)
+Model is available at: [OneDrive](https://zjueducn-my.sharepoint.com/:u:/g/personal/yuanzew_zju_edu_cn/EWgFQ7W3aNpOn5XP_ZzQj3QBcVwxEdqgdgM4qLCvsjNqKA?e=eNVLcj)
 ## How to Cite
 ```
 @inproceedings{
     wang2023multilevel,
-    title={Multi-level Protein Structure Pre-training via Prompt Learning},
+    title={{M}ulti-level {P}rotein {S}tructure {P}re-training via {P}rompt {L}earning},
     author={Zeyuan Wang and Qiang Zhang and Shuang-Wei HU and Haoran Yu and Xurui Jin and Zhichen Gong and Huajun Chen},
     booktitle={The Eleventh International Conference on Learning Representations },
     year={2023},
