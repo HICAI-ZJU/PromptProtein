@@ -16,7 +16,7 @@ Through experiments, we find that the learnable Prompt can improve the performan
 In this paper, we made a preliminary exploration on how to apply prompt technology to protein language model. We have designed many prompts related to protein characteristics on protein language model in [PromptProtein](https://hicai-zju.github.io/ProteinPromptEngineering//) and left them for future work.
 
 
-Model is available at: [OneDrive](https://zjueducn-my.sharepoint.com/:u:/g/personal/yuanzew_zju_edu_cn/EWgFQ7W3aNpOn5XP_ZzQj3QBcVwxEdqgdgM4qLCvsjNqKA?e=eNVLcj)
+Model is available at: [OneDrive](https://zjueducn-my.sharepoint.com/:u:/g/personal/yuanzew_zju_edu_cn/EWgFQ7W3aNpOn5XP_ZzQj3QBcVwxEdqgdgM4qLCvsjNqKA?e=LtUNhb)
 ## How to Cite
 ```
 @inproceedings{
